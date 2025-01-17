@@ -63,9 +63,9 @@ Ensure the following tools are installed on your system:
    ```
 4. Start the React development server:
    ```bash
-   npm start
+   npm run dev
    ```
-   The frontend will run at `http://localhost:3000` by default.
+   The frontend will run at `http://localhost:5173` by default.
 
 ## Deployment
 
