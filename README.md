@@ -33,7 +33,7 @@ Ensure the following tools are installed on your system:
 - Git
 
 ### Backend Setup
-1. Navigate to the `lawconnect-backend` directory:
+1. Navigate to the `newfirm-backend` directory:
    ```bash
    cd newfirm-backend
    ```
@@ -51,7 +51,7 @@ Ensure the following tools are installed on your system:
 ### Frontend Setup
 1. Navigate to the `newfirm-frontend` directory:
    ```bash
-   cd lawconnect-frontend
+   cd newfirm-frontend
    ```
 2. Install dependencies:
    ```bash
@@ -93,7 +93,7 @@ Deploy the backend to platforms like Render or Railway:
 For further assistance, please contact:
 - **Email:** `ambukaa93@gmail.com`
 - **Phone:** `0115781276`
-- **Office Location:** West End Towers, Waiyaki Way, Nairobi, Kenya
+- **Office Location:** ===, Waiyaki Way, Nairobi, Kenya
 
 ---
 We hope you find LawConnect beneficial for your legal practice. Feel free to reach out with any feedback or inquiries!
