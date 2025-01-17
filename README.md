@@ -35,7 +35,7 @@ Ensure the following tools are installed on your system:
 ### Backend Setup
 1. Navigate to the `lawconnect-backend` directory:
    ```bash
-   cd lawconnect-backend
+   cd newfirm-backend
    ```
 2. Install dependencies:
    ```bash
@@ -49,7 +49,7 @@ Ensure the following tools are installed on your system:
    The backend will run at `http://localhost:5000` by default.
 
 ### Frontend Setup
-1. Navigate to the `lawconnect-frontend` directory:
+1. Navigate to the `newfirm-frontend` directory:
    ```bash
    cd lawconnect-frontend
    ```
