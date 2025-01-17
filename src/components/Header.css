@@ -1,0 +1,92 @@
+/* Basic Styling */
+.header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    position: relative; /* To allow absolute positioning inside */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hamburger Icon */
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Close Button */
+  .close-button {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px; /* Adjusted for top margin */
+    left: 270px; /* Move the "X" button slightly to the right, next to the menu */
+    z-index: 10; /* Ensures it's on top of other elements */
+  }
+  
+  /* Active Menu */
+  .nav-links.active {
+    display: block;
+  }
+  
+  /* Media Queries for small screens */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block; /* Show hamburger icon on smaller screens */
+    }
+  
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      z-index: 9; /* Make sure menu is below the close button */
+    }
+  
+    .nav-links.active {
+      display: block;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    /* Positioning the close button when menu is active */
+    .close-button {
+      top: 20px;
+      right: 20px; /* Position it on the right side next to the content */
+    }
+  }
+  
